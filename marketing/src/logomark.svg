@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024"><defs>
+    <linearGradient id="gBg"   x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F5F6F8"/><stop offset="1" stop-color="#E0E4EB"/></linearGradient>
+    <linearGradient id="gTop"  x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#4A80FF"/><stop offset="1" stop-color="#1E55F6"/></linearGradient>
+    <linearGradient id="gLeft" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1E50E0"/><stop offset="1" stop-color="#1640BE"/></linearGradient>
+    <linearGradient id="gRight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#12379F"/><stop offset="1" stop-color="#0C2C7E"/></linearGradient>
+    <linearGradient id="gBore" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0A2160"/><stop offset="1" stop-color="#1D4ECB"/></linearGradient>
+    <linearGradient id="gLit"  x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/><stop offset="0.5" stop-color="#A9CBFF"/><stop offset="1" stop-color="#0D0DFF"/></linearGradient>
+    <linearGradient id="gWire" gradientUnits="userSpaceOnUse" x1="512" y1="285" x2="600" y2="745">
+      <stop offset="0" stop-color="#2323FF"/><stop offset="1" stop-color="#0000EE"/></linearGradient>
+    <radialGradient id="gGlow" cx="0.5" cy="0.4" r="0.55">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.9"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+    <filter id="softShadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="22" stdDeviation="26" flood-color="#0A1A4A" flood-opacity="0.30"/></filter>
+  </defs>
+<polygon points="512.00,258.02 777.00,411.02 512.00,564.02 247.00,411.02" fill="none" stroke="url(#gWire)" stroke-width="38.0" stroke-linejoin="miter" stroke-miterlimit="10"/><polygon points="777.00,411.02 777.00,612.98 512.00,765.98 512.00,564.02" fill="none" stroke="url(#gWire)" stroke-width="38.0" stroke-linejoin="miter" stroke-miterlimit="10"/><polygon points="247.00,411.02 512.00,564.02 512.00,765.98 247.00,612.98" fill="none" stroke="url(#gWire)" stroke-width="38.0" stroke-linejoin="miter" stroke-miterlimit="10"/>
+</svg>

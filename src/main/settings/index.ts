@@ -1,0 +1,5 @@
+export { createSettingsService } from './SettingsService'
+export { createSecrets, type Secrets } from './Secrets'
+export { createToolDetector, resolveToolPaths } from './toolDetect'
+export { registerSettingsIpc } from './settingsIpc'
+export { registerProjectsIpc } from '../persistence/projectsIpc'

@@ -1,0 +1,39 @@
+appId: com.protoloop.app
+productName: Protoloop
+copyright: Copyright © 2026 Protoloop
+
+directories:
+  buildResources: build
+  output: release
+
+files:
+  - out/**/*
+  - package.json
+
+asarUnpack:
+  - '**/*.node'
+
+mac:
+  category: public.app-category.developer-tools
+  darkModeSupport: true
+  hardenedRuntime: true
+  gatekeeperAssess: false
+  entitlements: build/entitlements.mac.plist
+  entitlementsInherit: build/entitlements.mac.plist
+  target:
+    - target: dmg
+      arch: [arm64]
+    - target: zip
+      arch: [arm64]
+  extendInfo:
+    NSHighResolutionCapable: true
+
+# Notarization is handled by build/notarize.cjs (afterSign) and only runs when
+# APPLE_ID / APPLE_APP_SPECIFIC_PASSWORD / APPLE_TEAM_ID are present in the env.
+afterSign: build/notarize.cjs
+
+dmg:
+  artifactName: ${productName}-${version}-arm64.${ext}
+  title: ${productName} ${version}
+
+npmRebuild: false
